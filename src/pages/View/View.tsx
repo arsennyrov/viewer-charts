@@ -29,7 +29,7 @@ function View() {
   })
 
   return (
-    <>
+    <div className='view__main'>
       {!charts.length && <div className="view__alert">Добавтье график</div>}
       {!!charts.length && <div className="view__range-wrapper">
         <RangePicker
@@ -37,8 +37,8 @@ function View() {
           onCalendarChange={(value) => setPeriod(value)}
         />
       </div>}
-      <Charts chartHeight="800px" grid={false} dataSource={realCharts} />
-    </>
+      <Charts chartHeight="600px" grid={false} dataSource={realCharts} />
+    </div>
   );
 }
 
