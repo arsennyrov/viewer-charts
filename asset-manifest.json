@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/viewer-charts/static/css/main.d235d60d.css",
+    "main.js": "/viewer-charts/static/js/main.230b25a3.js",
+    "index.html": "/viewer-charts/index.html",
+    "main.d235d60d.css.map": "/viewer-charts/static/css/main.d235d60d.css.map",
+    "main.230b25a3.js.map": "/viewer-charts/static/js/main.230b25a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d235d60d.css",
+    "static/js/main.230b25a3.js"
+  ]
+}
